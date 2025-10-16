@@ -1,0 +1,28 @@
+name: Auto Backup
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 8 * * *'   # jalan tiap hari jam 08:00 UTC (~15:00 WIB)
+  workflow_dispatch:
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config user.name "DeltaSec-cyber"
+          git config user.email "you@example.com"
+
+      - name: Commit and push changes
+        run: |
+          git add -A
+          git commit -m "Auto backup update $(date)" || echo "No changes to commit"
+          git push origin main
