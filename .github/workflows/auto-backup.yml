@@ -8,6 +8,9 @@ on:
     - cron: '0 8 * * *'   # jalan tiap hari jam 08:00 UTC (~15:00 WIB)
   workflow_dispatch:
 
+permissions:
+  contents: write   # memberi izin untuk commit & push ke repo
+
 jobs:
   backup:
     runs-on: ubuntu-latest
