@@ -31,9 +31,13 @@ jobs:
           cp -r * "backup_$DATE" || true
           echo "Backup folder created: backup_$DATE"
 
+      - name: Delete old backups (older than 7 days)
+        run: |
+          find . -maxdepth 1 -type d -name "backup_*" -mtime +7 -exec rm -rf {} \;
+          echo "Old backups deleted"
+
       - name: Commit and push changes
         run: |
           git add -A
           git commit -m "Auto backup update $(date)" || echo "No changes to commit"
           git push origin main
-update: add daily dated backup folder
