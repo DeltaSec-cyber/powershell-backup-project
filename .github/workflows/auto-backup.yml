@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # memberi izin untuk commit & push ke repo
+  contents: write   # izin buat commit & push
 
 jobs:
   backup:
@@ -24,8 +24,16 @@ jobs:
           git config user.name "DeltaSec-cyber"
           git config user.email "wolfxxx703@gmail.com"
 
+      - name: Create dated backup folder
+        run: |
+          DATE=$(date +'%Y-%m-%d')
+          mkdir -p "backup_$DATE"
+          cp -r * "backup_$DATE" || true
+          echo "Backup folder created: backup_$DATE"
+
       - name: Commit and push changes
         run: |
           git add -A
           git commit -m "Auto backup update $(date)" || echo "No changes to commit"
           git push origin main
+update: add daily dated backup folder
