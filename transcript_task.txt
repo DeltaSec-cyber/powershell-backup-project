@@ -1,1 +1,48 @@
-Task transcript log placeholder
+**********************
+PowerShell transcript start
+Start time: 20251024092519
+Username: LAPTOP-JBQ9M3PP\LENOVO
+RunAs User: LAPTOP-JBQ9M3PP\LENOVO
+Configuration Name: 
+Machine: LAPTOP-JBQ9M3PP (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command & { Start-Transcript -Path 'C:\Users\LENOVO\Deltasec\IHM\logs\transcript_task.txt' -Append; & 'C:\Users\LENOVO\Deltasec\IHM\monitor_v2.2.ps1'; Stop-Transcript }
+Process ID: 20308
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.22631
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\LENOVO\Deltasec\IHM\logs\transcript_task.txt
+**********************
+PowerShell transcript end
+End time: 20251024092523
+**********************
+**********************
+PowerShell transcript start
+Start time: 20251024100002
+Username: LAPTOP-JBQ9M3PP\LENOVO
+RunAs User: LAPTOP-JBQ9M3PP\LENOVO
+Configuration Name: 
+Machine: LAPTOP-JBQ9M3PP (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command & { Start-Transcript -Path 'C:\Users\LENOVO\Deltasec\IHM\logs\transcript_task.txt' -Append; & 'C:\Users\LENOVO\Deltasec\IHM\monitor_v2.2.ps1'; Stop-Transcript }
+Process ID: 5652
+PSVersion: 7.5.3
+PSEdition: Core
+GitCommitId: 7.5.3
+OS: Microsoft Windows 10.0.22631
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\LENOVO\Deltasec\IHM\logs\transcript_task.txt
+**********************
+PowerShell transcript end
+End time: 20251024100006
+**********************
