@@ -1,2 +1,0 @@
-[Task Transcript]
-This file will store transcript logs for automation.
