@@ -1,0 +1,43 @@
+Deltasec — Week 1 / Day 3 Summary
+========================================
+🧠 Tema Hari Ini: File Monitoring & Logging
+
+📅 Tanggal: 14 October 2025
+🕒 Waktu Latihan: Pagi (07:45 - 09:00)
+📍 Lokasi Folder: C:\Users\LENOVO\Deltasec\Week1\Day3
+
+----------------------------------------
+🔍 Tujuan Pembelajaran:
+Hari ini kamu belajar bagaimana sistem bisa memantau dan mencatat perubahan file secara otomatis — konsep penting dalam dunia keamanan siber, terutama untuk log aktivitas dan analisis forensik.
+
+----------------------------------------
+📘 Konsep yang Dipelajari:
+1. **Membuat folder otomatis** dengan PowerShell (New-Item -ItemType Directory)
+2. **Mengambil daftar file** di dalam folder (Get-ChildItem)
+3. **Menghitung jumlah file** menggunakan (Measure-Object)
+4. **Mencatat hasil pemantauan ke log** dengan (Out-File dan Add-Content)
+5. **Membuat laporan otomatis** (summary harian)
+
+----------------------------------------
+🧩 Hasil Praktik:
+- Folder baru bernama monitor_test berhasil dibuat.
+- File log Day3_log.txt berisi jumlah file di folder tersebut.
+- Semua data tercatat otomatis dengan waktu (timestamp).
+
+Contoh isi log:
+[10/14/2025 08:58:59] Jumlah file di folder monitor_test: 2
+
+----------------------------------------
+🧠 Insight:
+Inilah langkah awal memahami **file monitoring**, bagian penting dari tugas red team maupun blue team.  
+Sebagai red teamer, kamu nanti akan memantau bagaimana sistem bereaksi terhadap perubahan — misalnya saat file disusupi malware atau script uji coba dijalankan.
+
+----------------------------------------
+🔥 Status:
+✅ Day 3 — File Monitoring & Logging Selesai
+➡️ Siap lanjut ke Day 4: *Automated File Tasks & PowerShell Variables*
+
+----------------------------------------
+💬 Catatan Deltasec:
+Teruskan ritme belajar ini, jangan terburu-buru.  
+Kamu sudah mulai berpikir seperti **seorang praktisi keamanan siber sejati**.

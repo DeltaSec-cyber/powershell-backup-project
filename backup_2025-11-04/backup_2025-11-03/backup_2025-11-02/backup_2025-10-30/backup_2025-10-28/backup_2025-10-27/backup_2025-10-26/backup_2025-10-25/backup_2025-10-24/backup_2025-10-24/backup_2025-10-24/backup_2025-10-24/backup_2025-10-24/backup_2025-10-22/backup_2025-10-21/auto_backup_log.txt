@@ -1,0 +1,15 @@
+[{0}] Backup done to {1}
+-f
+
+Wednesday, 15 October 2025 16:01:53
+C:\Users\LENOVO\Deltasec\Backups\Backup_20251015_160153
+
+[{0}] Verification: OK ✅
+-f
+
+Wednesday, 15 October 2025 16:01:53
+
+[2025-10-15 16:09:20] Backup done to C:\Users\LENOVO\Deltasec\Backups\Backup_20251015_160920
+[2025-10-15 16:09:20] Verification: OK ✅
+[2025-10-16 07:51:21] Backup done to C:\Users\LENOVO\Deltasec\Backups\Backup_20251016_075121
+[2025-10-16 07:51:21] Verification: OK ✅
